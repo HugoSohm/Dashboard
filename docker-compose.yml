@@ -1,11 +1,11 @@
 version: '3'
 services:
   client:
-    build: ./client
+    build: ./src/client
     ports:
       - "4200:4200"
   server:
-    build: ./server
+    build: ./src/server
     depends_on:
       - mongo
     ports:
