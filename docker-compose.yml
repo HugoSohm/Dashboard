@@ -1,27 +1,6 @@
-version: '3'
+version: "3"
 services:
-  client:
-    build: ./src/client
-    ports:
-      - "4200:4200"
   server:
-    build: ./src/server
-    depends_on:
-      - mongo
+    build: ./server
     ports:
       - "8080:8080"
-    networks:
-      - sprint-network
-  mongodb:
-    image: mongo
-    command: mongod --port 27018 --bind_ip_all
-    ports:
-      - "27018:27018"
-    networks:
-      - spring-network
-    volumes:
-      - ./server/db:/data/db
-
-network:
-  sprint-network:
-    driver: bridge
