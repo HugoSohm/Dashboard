@@ -1,4 +1,4 @@
-package com.dashboard.server;
+package com.dashboard.server.routes;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -18,6 +18,12 @@ public class RoutesController {
     public String login(ModelMap model) {
         model.addAttribute("App", "Dashboard");
         return "login";
+    }
+
+    @RequestMapping("/profile")
+    public String profile(ModelMap model) {
+        model.addAttribute("App", "Dashboard");
+        return "profile";
     }
 
 }
