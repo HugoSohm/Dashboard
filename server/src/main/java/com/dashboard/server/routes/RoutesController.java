@@ -45,7 +45,7 @@ public class RoutesController {
     }
 
     @RequestMapping("/tables")
-    public String maps(ModelMap model) {
+    public String tables(ModelMap model) {
         model.addAttribute("App", "Dashboard");
         return "tables";
     }

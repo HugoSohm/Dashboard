@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71f1cfb3-28b9-4231-8352-5946e569daff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/profile.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/RoutesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/RoutesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/static/assets/js/plugins/prismjs/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/static/assets/js/plugins/prismjs/components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/static/assets/js/plugins/prismjs/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/static/assets/js/plugins/prismjs/components.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/templates/icons.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/templates/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/templates/login.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/maps.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/templates/maps.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/templates/register.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/templates/tables.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,14 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/RoutesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="63">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -62,15 +61,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/tables.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -97,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/profile.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="126" column="28" lean-forward="true" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
+              <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -147,12 +137,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/server/Dockerfile" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/ServerApplication.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/Signin.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/Routes.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/Routes.java" />
-        <option value="$PROJECT_DIR$/server/build.gradle" />
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/sidebar.html" />
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/login.twig" />
@@ -162,7 +150,9 @@
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/icons.twig" />
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/index.twig" />
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/profile.twig" />
+        <option value="$PROJECT_DIR$/server/build.gradle" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/RoutesController.java" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -320,7 +310,7 @@
       <updated>1572968809597</updated>
       <workItem from="1572968811056" duration="10539000" />
       <workItem from="1573118977964" duration="4702000" />
-      <workItem from="1573140495298" duration="4216000" />
+      <workItem from="1573140495298" duration="4998000" />
     </task>
     <task id="LOCAL-00001" summary="[+] Added server with docker-compose up and routes">
       <created>1572990415255</created>
@@ -336,11 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572990510340</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[+] Modified pages with assets and added routes">
+      <created>1573201054598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573201054598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19457000" />
+    <option name="totallyTimeSpent" value="20239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -410,22 +407,17 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="[+] Added server with docker-compose up and routes" />
     <MESSAGE value="[+] Added requirement files and requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="[+] Added requirement files and requirements" />
+    <MESSAGE value="[+] Modified pages with assets and added routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] Modified pages with assets and added routes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server/src/test/java/com/dashboard/server/ServerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/Signin.java" />
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -505,17 +497,24 @@
     <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/profile.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="126" column="28" lean-forward="true" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
+          <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/RoutesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="63">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
