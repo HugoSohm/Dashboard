@@ -20,4 +20,33 @@ public class RoutesController {
         return "login";
     }
 
+    @RequestMapping("/register")
+    public String register(ModelMap model) {
+        model.addAttribute("App", "Dashboard");
+        return "register";
+    }
+
+    @RequestMapping("/profile")
+    public String profile(ModelMap model) {
+        model.addAttribute("App", "Dashboard");
+        return "profile";
+    }
+
+    @RequestMapping("/maps")
+    public String maps(ModelMap model) {
+        model.addAttribute("App", "Dashboard");
+        return "maps";
+    }
+
+    @RequestMapping("/icons")
+    public String icons(ModelMap model) {
+        model.addAttribute("App", "Dashboard");
+        return "icons";
+    }
+
+    @RequestMapping("/tables")
+    public String maps(ModelMap model) {
+        model.addAttribute("App", "Dashboard");
+        return "tables";
+    }
 }
