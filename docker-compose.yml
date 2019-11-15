@@ -10,6 +10,7 @@ services:
       - POSTGRES_USER=john
       - POSTGRES_PASSWORD=pwd0123456789
       - POSTGRES_DB=mydb
+      - IS_LOGGED=false
   db:
     image: "postgres"
     environment:
@@ -19,4 +20,8 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./postgres-data:/var/lib/postgresql/data
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:
+    driver: local

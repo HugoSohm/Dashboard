@@ -12,18 +12,6 @@ import java.sql.DriverManager;
 public class ServerApplication {
 
 	public static void main(String args[]) {
-		Connection c = null;
-		try {
-			Class.forName("org.postgresql.Driver");
-			c = DriverManager
-					.getConnection("jdbc:postgresql://db:5432/" + System.getenv("POSTGRES_DB"),
-							System.getenv("POSTGRES_USER"), System.getenv("POSTGRES_PASSWORD"));
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.err.println(e.getClass().getName()+": "+e.getMessage());
-			System.exit(0);
-		}
-		System.out.println("Opened database successfully");
 		SpringApplication.run(ServerApplication.class, args);
 	}
 }
