@@ -55,16 +55,20 @@ public class User {
         } catch (Exception e) {System.out.println(e.getClass().getName()+": " + e.getLocalizedMessage() );}
     }
 
-    public static void logUser(Map<String, String> data, Connection c, PreparedStatement stmt) {
+    public static int logUser(Map<String, String> data, Connection c, PreparedStatement stmt) {
+
+        String check_mail = null;
+        String check_name = null;
         try {
             MessageDigest digest = MessageDigest.getInstance("SHA-256");
             byte[] hash = digest.digest(data.get("password").getBytes(StandardCharsets.UTF_8));
 
-            stmt = c.prepareStatement("SELECT name FROM users WHERE email = '" + data.get("email") + "' AND password = '" + toHexString(hash) + "';");
+            stmt = c.prepareStatement("SELECT name, email FROM users WHERE email = '" + data.get("email") + "' AND password = '" + toHexString(hash) + "';");
             ResultSet rs = stmt.executeQuery();
-            while (rs.next()) {
-                System.out.println(rs.getString(1));
-            }
+            if (!rs.next())
+                return 0;
+            return 1;
         } catch (Exception e) {System.out.println(e.getClass().getName()+": " + e.getLocalizedMessage() );}
+        return 1;
     }
 }

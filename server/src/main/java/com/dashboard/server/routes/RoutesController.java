@@ -67,18 +67,22 @@ public class RoutesController {
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String loginPost(@RequestParam Map<String, String> formData) {
+        int log;
+
         if (formData != null) {
             String name = formData.get("name");
             String email = formData.get("email");
             String password = formData.get("password");
 
             if (email != null && password != null) {
-                User.logUser(formData, c, stmt);
-                isLogged = true;
-                return "index";
+                log = User.logUser(formData, c, stmt);
+                if (log == 1) {
+                    isLogged = true;
+                    return "index";
+                }
             }
         }
-        return "/login";
+        return "login";
     }
 
     @RequestMapping(value="/register")
