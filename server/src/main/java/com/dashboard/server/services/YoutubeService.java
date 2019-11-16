@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class YoutubeService {
-    public String key = "AIzaSyDNpcyII1P4k7-Dz80GNx-UcNrUh7-TmgY";
+    private final String key = "AIzaSyDNpcyII1P4k7-Dz80GNx-UcNrUh7-TmgY";
 
     public String Subscribers(String name) {
         String url = "https://www.googleapis.com/youtube/v3/channels?part=statistics&forUsername=" + name + "&fields=items/statistics/subscriberCount&key=" + key;

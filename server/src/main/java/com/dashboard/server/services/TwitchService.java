@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 public class TwitchService {
-    public String id = "qf4ofh1kezv6eko4vmozlwmivcgb8v";
+    private final String id = "qf4ofh1kezv6eko4vmozlwmivcgb8v";
 
     public String Games(int number) {
         String url = "https://api.twitch.tv/helix/games/top?first=" + number;

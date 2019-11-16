@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class OpenWeatherService {
-    public String key = "3ea8b3dff7faeeace3b8ee11c66e72d0";
+    private final String key = "3ea8b3dff7faeeace3b8ee11c66e72d0";
 
     public String Temperature(String city) {
         String url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + key;
