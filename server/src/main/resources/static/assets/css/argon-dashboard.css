@@ -6847,7 +6847,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #fb6340 !important;
+  background-color: #6441a5 !important;
 }
 
 a.bg-warning:hover,
@@ -6858,7 +6858,7 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-  background-color: #f5365c !important;
+  background-color: #ED4E20 !important;
 }
 
 a.bg-danger:hover,
@@ -13353,7 +13353,7 @@ button.bg-orange:focus {
 }
 
 .bg-yellow {
-  background-color: #ffd600 !important;
+  background-color: #1F45FC !important;
 }
 
 a.bg-yellow:hover,
