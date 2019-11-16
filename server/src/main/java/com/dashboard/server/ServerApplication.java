@@ -13,9 +13,6 @@ import java.sql.DriverManager;
 public class ServerApplication {
 
 	public static void main(String args[]) {
-		YoutubeService YoutubeService = new YoutubeService();
-		OpenWeatherService OpenWeatherService = new OpenWeatherService();
-		TwitchService TwitchService = new TwitchService();
 		SpringApplication.run(ServerApplication.class, args);
 	}
 }
