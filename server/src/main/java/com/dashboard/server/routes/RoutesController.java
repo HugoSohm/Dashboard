@@ -67,22 +67,10 @@ public class RoutesController {
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String loginPost(@RequestParam Map<String, String> formData) {
-        int log;
-
-        if (formData != null) {
-            String name = formData.get("name");
-            String email = formData.get("email");
-            String password = formData.get("password");
-
-            if (email != null && password != null) {
-                log = User.logUser(formData, c, stmt);
-                if (log == 1) {
-                    isLogged = true;
-                    return "index";
-                }
-            }
-        }
-        return "login";
+        String view = LoginController.login(formData, c, stmt);
+        if (view.equals("index"))
+            isLogged = true;
+        return view;
     }
 
     @RequestMapping(value="/register")
@@ -93,16 +81,7 @@ public class RoutesController {
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public void registerPost(@RequestParam Map<String, String> formData) {
-        if (formData != null) {
-
-            String name = formData.get("name");
-            String email = formData.get("email");
-            String password = formData.get("password");
-
-            if (name != null && email != null && password != null)
-                User.addUser(formData, c, stmt);
-        }
-        //register(model);
+        RegisterController.register(formData, c, stmt);
     }
 
     @RequestMapping("/profile")
