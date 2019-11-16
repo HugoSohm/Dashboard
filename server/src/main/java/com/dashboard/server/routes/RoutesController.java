@@ -40,7 +40,6 @@ public class RoutesController {
             System.err.println(e.getClass().getName()+": "+e.getMessage());
             System.exit(0);
         }
-        System.out.println("Opened database successfully");
     }
 
     @RequestMapping("/")
@@ -73,6 +72,13 @@ public class RoutesController {
         return view;
     }
 
+    @RequestMapping(value="/logout")
+    public String logout(ModelMap model) {
+        model.addAttribute("App", "Dashboard");
+        isLogged = false;
+        return "login";
+    }
+
     @RequestMapping(value="/register")
     public String register(ModelMap model) {
         model.addAttribute("App", "Dashboard");
@@ -87,24 +93,8 @@ public class RoutesController {
     @RequestMapping("/profile")
     public String profile(ModelMap model) {
         model.addAttribute("App", "Dashboard");
+        if (!isLogged)
+            return "login";
         return "profile";
-    }
-
-    @RequestMapping("/maps")
-    public String maps(ModelMap model) {
-        model.addAttribute("App", "Dashboard");
-        return "maps";
-    }
-
-    @RequestMapping("/icons")
-    public String icons(ModelMap model) {
-        model.addAttribute("App", "Dashboard");
-        return "icons";
-    }
-
-    @RequestMapping("/tables")
-    public String tables(ModelMap model) {
-        model.addAttribute("App", "Dashboard");
-        return "tables";
     }
 }
