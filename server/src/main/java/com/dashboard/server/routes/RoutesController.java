@@ -80,8 +80,8 @@ public class RoutesController {
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public void registerPost(@RequestParam Map<String, String> formData) {
-        RegisterController.register(formData, c, stmt);
+    public String registerPost(@RequestParam Map<String, String> formData) {
+        return RegisterController.register(formData, c, stmt);
     }
 
     @RequestMapping("/profile")

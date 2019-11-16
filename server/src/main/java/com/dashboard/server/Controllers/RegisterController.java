@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 public class RegisterController {
 
-    public static void register(Map<String, String> formData, Connection c, PreparedStatement stmt) {
+    public static String register(Map<String, String> formData, Connection c, PreparedStatement stmt) {
         if (formData != null) {
 
             String name = formData.get("name");
@@ -32,5 +32,6 @@ public class RegisterController {
             if (name != null && email != null && password != null)
                 User.addUser(formData, c, stmt);
         }
+        return "login";
     }
 }
