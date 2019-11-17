@@ -69,9 +69,9 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link pr-0" href="profile">
                         <div class="media align-items-center">
-                <span class="avatar avatar-sm rounded-circle">
-                  <img alt="Image placeholder" src="./assets/img/theme/team-4-800x800.jpg">
-                </span>
+                            <span class="avatar avatar-sm rounded-circle">
+                              <img alt="Image placeholder" src="./assets/img/theme/team-4-800x800.jpg">
+                            </span>
                             <div class="media-body ml-2 d-none d-lg-block">
                                 <span class="mb-0 text-sm  font-weight-bold">Mon profil</span>
                             </div>
@@ -88,7 +88,7 @@
             <div class="header-body">
                 <!-- Card stats -->
                 <div class="row">
-                    <div class="col-xl-4 col-lg-6">
+                    <div class="col-xl-3 col-lg-6">
                         <div data-toggle="modal" data-target="#YoutubeModal" class="card card-stats mb-4 mb-xl-0">
                             <div class="card-body">
                                 <div class="row">
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6">
+                    <div class="col-xl-3 col-lg-6">
                         <div data-toggle="modal" data-target="#TwitchModal" class="card card-stats mb-4 mb-xl-0">
                             <div class="card-body">
                                 <div class="row">
@@ -120,7 +120,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6">
+                    <div class="col-xl-3 col-lg-6">
+                        <div data-toggle="modal" data-target="#DeezerModal" class="card card-stats mb-4 mb-xl-0">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <span class="h2 font-weight-bold mb-0">Deezer</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="icon icon-shape bg-cyan text-white rounded-circle shadow">
+                                            <i class="fas fa-music"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6">
                         <div data-toggle="modal" data-target="#WeatherModal" class="card card-stats mb-4 mb-xl-0">
                             <div class="card-body">
                                 <div class="row">
@@ -146,7 +162,7 @@
             <div class="col">
                 <div class="card shadow">
                     <div class="card-header border-0">
-                        <h3 class="mb-0">Widgets actifs</h3>
+                        <h3 class="mb-0">Services disponibles</h3>
                     </div>
                     <div class="table-responsive">
                         <table class="table align-items-center table-flush">
@@ -180,8 +196,15 @@
                                 <td></td>
                                 <td class="text-right">
                                     <div class="col text-right">
-                                        <button data-toggle="modal" data-target="#YoutubeModal" class="btn btn-sm btn-primary">Modifier</button>
-                                        <a href="#!" class="btn btn-sm btn-danger">Supprimer</a>
+                                        <button data-toggle="modal" data-target="#YoutubeModal"
+                                                class="btn btn-sm btn-success">Ajouter
+                                        </button>
+                                        <button data-toggle="modal" data-target="#YoutubeModal"
+                                                class="btn btn-sm btn-primary">Modifier
+                                        </button>
+                                        <button data-toggle="modal" data-target="#YoutubeDeleteModal"
+                                                class="btn btn-sm btn-danger">Supprimer
+                                        </button>
                                     </div>
                                 </td>
                             </tr>
@@ -204,8 +227,45 @@
                                 <td></td>
                                 <td class="text-right">
                                     <div class="col text-right">
-                                        <button data-toggle="modal" data-target="#TwitchModal" class="btn btn-sm btn-primary">Modifier</button>
-                                        <a href="#!" class="btn btn-sm btn-danger">Supprimer</a>
+                                        <button data-toggle="modal" data-target="#TwitchModal"
+                                                class="btn btn-sm btn-success">Ajouter
+                                        </button>
+                                        <button data-toggle="modal" data-target="#TwitchModal"
+                                                class="btn btn-sm btn-primary">Modifier
+                                        </button>
+                                        <button data-toggle="modal" data-target="#TwitchDeleteModal"
+                                                class="btn btn-sm btn-danger">Supprimer
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <a href="#" class="avatar rounded-circle mr-3">
+                                            <div class="icon icon-shape bg-cyan text-white rounded-circle shadow">
+                                                <i class="fas fa-music"></i>
+                                            </div>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="mb-0 text-sm">Deezer</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <td><span class="badge badge-dot"><i class="bg-success"></i> Actif</span></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right">
+                                    <div class="col text-right">
+                                        <button data-toggle="modal" data-target="#DeezerModal"
+                                                class="btn btn-sm btn-success">Ajouter
+                                        </button>
+                                        <button data-toggle="modal" data-target="#DeezerModal"
+                                                class="btn btn-sm btn-primary">Modifier
+                                        </button>
+                                        <button onclick="hideDeezerWidget()" class="btn btn-sm btn-danger">Supprimer
+                                        </button>
                                     </div>
                                 </td>
                             </tr>
@@ -228,8 +288,14 @@
                                 <td></td>
                                 <td class="text-right">
                                     <div class="col text-right">
-                                        <button data-toggle="modal" data-target="#WeatherModal" class="btn btn-sm btn-primary">Modifier</button>
-                                        <a href="#!" class="btn btn-sm btn-danger">Supprimer</a>
+                                        <button data-toggle="modal" data-target="#WeatherModal"
+                                                class="btn btn-sm btn-success">Ajouter
+                                        </button>
+                                        <button data-toggle="modal" data-target="#WeatherModal"
+                                                class="btn btn-sm btn-primary">Modifier
+                                        </button>
+                                        <button onclick="hideWeatherWidget()" class="btn btn-sm btn-danger">Supprimer
+                                        </button>
                                     </div>
                                 </td>
                             </tr>
@@ -239,68 +305,14 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-xl-12">
-                <div class="card shadow">
-                    <div class="card-header border-0">
-                        <div class="row align-items-center">
-                            <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
-                                <i class="fab fa-twitch"></i>
-                            </div>
-                            <div class="col">
-                                <h3 class="mb-0">Les lives les plus regardés</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-responsive">
-                        <!-- Projects table -->
-                        <table class="table align-items-center table-flush">
-                            <thead class="thead-light">
-                            <tr>
-                                <th scope="col">Nom du streamer</th>
-                                <th scope="col">Nombre de spectateurs</th>
-                                <th scope="col">Titre du stream</th>
-                            </tr>
-                            </thead>
-                            <tbody id="streams"></tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row mt-5">
-            <div class="col-xl-12">
-                <div class="card shadow">
-                    <div class="card-header border-0">
-                        <div class="row align-items-center">
-                            <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
-                                <i class="fab fa-twitch"></i>
-                            </div>
-                            <div class="col">
-                                <h3 class="mb-0">Les jeux les plus regardés</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-responsive">
-                        <!-- Projects table -->
-                        <table class="table align-items-center table-flush">
-                            <thead class="thead-light">
-                            <tr>
-                                <th scope="col">Nom du jeu</th>
-                            </tr>
-                            </thead>
-                            <tbody id="games"></tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-5">
-            <div id="weather" class="col-xl-6"></div>
-            <div id="youtube" class="col-xl-6"></div>
-        </div>
+        <!-- Widgets -->
+        <div id="subscribers" class="row mt-5"></div>
+        <div id="lastvideo" class="row mt-5"></div>
+        <div id="streams-div" class="row mt-5"></div>
+        <div id="games-div" class="row mt-5"></div>
+        <div id="deezer" class="row mt-5"></div>
+        <div id="weather" class="row mt-5"></div>
 
         <!-- Modal Youtube -->
         <div class="modal fade" id="YoutubeModal" tabindex="-1" role="dialog" aria-labelledby="YoutubeModal"
@@ -324,10 +336,44 @@
                             </div>
                             <div class="form-group">
                                 <label for="widget-name-youtube">Nom de la chaîne</label>
-                                <input name="widget-name-youtube" class="form-control" id="widget-name-youtube" placeholder="Nom de la chaîne">
+                                <input name="widget-name-youtube" class="form-control" id="widget-name-youtube"
+                                       placeholder="Nom de la chaîne">
                             </div>
                             <div class="modal-footer">
-                                <button onclick="hideYoutubeModal()" type="submit" class="btn btn-primary">Ajouter le widget</button>
+                                <button onclick="hideYoutubeModal()" type="submit" class="btn btn-primary">Ajouter le
+                                    widget
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Delete Youtube -->
+        <div class="modal fade" id="YoutubeDeleteModal" tabindex="-1" role="dialog" aria-labelledby="YoutubeModal"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="YoutubeDeleteModalTitle">Supprimer un widget youtube</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="javascript:hideYoutubeWidget()">
+                            <div class="form-group">
+                                <label for="widget-selector-youtube-delete">Widget à supprimer</label>
+                                <select class="form-control" id="widget-selector-youtube-delete">
+                                    <option value="subscribers-delete">Nombre d'abonnés</option>
+                                    <option value="lastvideo-delete">Dernière vidéo</option>
+                                </select>
+                            </div>
+                            <div class="modal-footer">
+                                <button onclick="hideYoutubeDeleteModal()" type="submit" class="btn btn-danger">
+                                    Supprimer le widget
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -360,7 +406,9 @@
                                 <input class="form-control" id="widget-count-twitch" placeholder="Nombre">
                             </div>
                             <div class="modal-footer">
-                                <button onclick="hideTwitchModal()" type="submit" class="btn btn-primary">Ajouter le widget</button>
+                                <button onclick="hideTwitchModal()" type="submit" class="btn btn-primary">Ajouter le
+                                    widget
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -368,7 +416,38 @@
             </div>
         </div>
 
-        <!-- Modal Youtube -->
+        <!-- Modal Delete Twitch -->
+        <div class="modal fade" id="TwitchDeleteModal" tabindex="-1" role="dialog" aria-labelledby="TwitchDeleteModal"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TwitchDeleteModalTitle">Supprimer un widget twitch</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="javascript:hideTwitchWidget()">
+                            <div class="form-group">
+                                <label for="widget-selector-twitch-delete">Widget à supprimer</label>
+                                <select class="form-control" id="widget-selector-twitch-delete">
+                                    <option value="streams-delete">Lives les plus regardés</option>
+                                    <option value="games-delete">Jeux les plus regardés</option>
+                                </select>
+                            </div>
+                            <div class="modal-footer">
+                                <button onclick="hideTwitchDeleteModal()" type="submit" class="btn btn-danger">
+                                    Supprimer le widget
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Weather -->
         <div class="modal fade" id="WeatherModal" tabindex="-1" role="dialog" aria-labelledby="WeatherModal"
              aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -386,7 +465,37 @@
                                 <input class="form-control" id="widget-name-weather" placeholder="Ville">
                             </div>
                             <div class="modal-footer">
-                                <button onclick="hideWeatherModal()" type="submit" class="btn btn-primary">Ajouter le widget</button>
+                                <button onclick="hideWeatherModal()" type="submit" class="btn btn-primary">Ajouter le
+                                    widget
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Deezer -->
+        <div class="modal fade" id="DeezerModal" tabindex="-1" role="dialog" aria-labelledby="DeezerModal"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="DeezerModalTitle">Ajouter un widget deezer</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="javascript:deezer()">
+                            <div class="form-group">
+                                <label for="widget-name-deezer">Nom de l'artiste</label>
+                                <input class="form-control" id="widget-name-deezer" placeholder="Artiste">
+                            </div>
+                            <div class="modal-footer">
+                                <button onclick="hideDeezerModal()" type="submit" class="btn btn-primary">Ajouter le
+                                    widget
+                                </button>
                             </div>
                         </form>
                     </div>

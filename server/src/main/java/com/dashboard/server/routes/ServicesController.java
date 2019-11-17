@@ -28,10 +28,16 @@ public class ServicesController {
     OpenWeatherService OpenWeatherService = new OpenWeatherService();
     YoutubeService YoutubeService = new YoutubeService();
     TwitchService TwitchService = new TwitchService();
+    DeezerService DeezerService = new DeezerService();
 
     @RequestMapping("/service/weather/temperature")
     public String Temperature(@RequestParam("value") String value) {
         return OpenWeatherService.Temperature(value);
+    }
+
+    @RequestMapping("/service/deezer/artist")
+    public String Artist(@RequestParam("value") String value) {
+        return DeezerService.Songs(value);
     }
 
     @RequestMapping("/service/youtube/subscribers")
@@ -40,8 +46,8 @@ public class ServicesController {
     }
 
     @RequestMapping("/service/youtube/lastvideo")
-    public String LastVideo(@RequestParam("value") String value) {
-        return YoutubeService.LastVideo(value);
+    public String LastVideo(@RequestParam("userid") String userid) {
+        return YoutubeService.LastVideo(userid);
     }
 
     @RequestMapping("/service/twitch/games")

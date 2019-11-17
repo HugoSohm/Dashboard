@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71f1cfb3-28b9-4231-8352-5946e569daff" name="Default Changelist" comment="[~] Modified login, register, index and css">
+    <list default="true" id="71f1cfb3-28b9-4231-8352-5946e569daff" name="Default Changelist" comment="k">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/DeezerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/ServicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/ServicesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/YoutubeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/YoutubeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/static/assets/img/brand/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/static/assets/img/brand/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/static/assets/img/brand/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/static/assets/img/brand/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/static/assets/img/brand/white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/static/assets/img/theme/profile-cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/static/assets/img/theme/profile-cover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/static/assets/img/theme/team-4-800x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/static/assets/img/theme/team-4-800x800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-modals.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-modals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-services.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/templates/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +28,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/RoutesController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="460">
+              <caret line="439" column="109" selection-start-line="439" selection-start-column="109" selection-end-line="439" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="88" column="58" lean-forward="true" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/YoutubeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,19 +62,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/TwitchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3045">
-              <caret line="217" selection-start-line="217" selection-end-line="217" />
+            <state relative-caret-position="147">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/build.gradle">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-modals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="483">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="43" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/static/assets/css/argon-dashboard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280581">
+              <caret line="13361" column="24" selection-start-line="13361" selection-start-column="24" selection-end-line="13361" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -51,31 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/data.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="796">
+              <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -83,17 +112,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="21">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/ServicesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="506">
+              <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +153,21 @@
       <find>&lt;a class=&quot; nav-link active &quot; href=&quot; ./index&quot;&gt; &lt;i class=&quot;ni ni-tv-2 text-primary&quot;&gt;&lt;/i&gt; Dashboard</find>
       <find>Card tab</find>
       <find>&lt;a class=&quot;nav-link  active &quot; href=&quot;./profile&quot;&gt;</find>
+      <find>&lt;body&gt;</find>
       <find>twig</find>
+      <find>&lt;a class=&quot; nav-link active &quot; href=&quot; ./index&quot;&gt; &lt;i class=&quot;ni ni-tv-2 text-primary&quot;&gt;&lt;/i&gt; Accueil</find>
+      <find>team-1-800x800.jpg:1</find>
+      <find>Les stre</find>
+      <find>widget-count</find>
+      <find>add-twitch</find>
+      <find>Streams</find>
+      <find>streams</find>
+      <find>youtube</find>
+      <find>lastvideo</find>
+      <find>subscr</find>
+      <find>form</find>
+      <find>cyan</find>
+      <find>Deezer</find>
     </findStrings>
     <replaceStrings>
       <replace>tables.twig</replace>
@@ -157,19 +203,27 @@
         <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/api/ApiOpenWeather.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/api/ApiTwitch.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/User.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/YoutubeService.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/OpenWeatherService.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/TwitchService.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/ServerApplication.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/login/Authentification.java" />
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/assets/css/argon-dashboard.css" />
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/assets/js/plugins/nucleo/css/nucleo.css" />
         <option value="$PROJECT_DIR$/server/build.gradle" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/templates/register.html" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/TwitchService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/OpenWeatherService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/ServerApplication.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/RoutesController.java" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboardapi.js" />
+        <option value="$PROJECT_DIR$/server/build/resources/main/templates/index.html" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-api.js" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/YoutubeService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/DeezerService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/ServicesController.java" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-modals.js" />
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/profile.html" />
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/templates/register.html" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-services.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
@@ -183,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,18 +311,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DEV_dashboard_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DEV_dashboard_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,19 +361,7 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DEV_dashboard_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DEV_dashboard_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="argon-dashboard.css" type="620a8d5e:NestingTreeNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DEV_dashboard_2019" type="b2602c69:ProjectViewProjectNode" />
@@ -345,7 +376,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -354,21 +384,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/src/main/resources/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/main/resources/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/server/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/server/src/main/java/com/dashboard/server/api" />
       <recent name="$PROJECT_DIR$/server/src/main/java/com/dashboard/server" />
       <recent name="$PROJECT_DIR$/server/src/main/resources/templates/examples" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/src/main/resources/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,6 +443,8 @@
       <workItem from="1573140495298" duration="4998000" />
       <workItem from="1573906950574" duration="776000" />
       <workItem from="1573907978571" duration="5466000" />
+      <workItem from="1573992014069" duration="45251000" />
+      <workItem from="1574047516548" duration="3919000" />
     </task>
     <task id="LOCAL-00001" summary="[+] Added server with docker-compose up and routes">
       <created>1572990415255</created>
@@ -455,17 +488,73 @@
       <option name="project" value="LOCAL" />
       <updated>1573916481184</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[~] Modified login button and title page">
+      <created>1573917452476</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573917452476</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[~] Modified api keys to private">
+      <created>1573917753498</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573917753498</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[+] Added ServicesController and dashboard-api.js">
+      <created>1573927802610</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573927802610</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[+] Added value retrieved from javascript parsed json">
+      <created>1573928665571</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573928665571</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[+] Added modals to dashboard">
+      <created>1573998225837</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573998225838</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[+] Added values from back-end and widget management with modals">
+      <created>1574025063888</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574025063888</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[+] Added modal close after submit and modals js file">
+      <created>1574026565438</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574026565438</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[+] Added modify functionnality and value for youtube and weather">
+      <created>1574027867818</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574027867818</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45793000" />
+    <option name="totallyTimeSpent" value="106349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26040554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26520813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -495,7 +584,7 @@
       <window_info anchor="right" id="Database" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25988403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26040554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -536,7 +625,15 @@
     <MESSAGE value="[+] Added Weather, Twitch and Youtube services with API" />
     <MESSAGE value="[+] Added logout, isLogged check and deleted useless routes" />
     <MESSAGE value="[~] Modified index, profile and register page" />
-    <option name="LAST_COMMIT_MESSAGE" value="[~] Modified index, profile and register page" />
+    <MESSAGE value="[~] Modified login button and title page" />
+    <MESSAGE value="[~] Modified api keys to private" />
+    <MESSAGE value="[+] Added ServicesController and dashboard-api.js" />
+    <MESSAGE value="[+] Added value retrieved from javascript parsed json" />
+    <MESSAGE value="[+] Added modals to dashboard" />
+    <MESSAGE value="[+] Added values from back-end and widget management with modals" />
+    <MESSAGE value="[+] Added modal close after submit and modals js file" />
+    <MESSAGE value="[+] Added modify functionnality and value for youtube and weather" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] Added modify functionnality and value for youtube and weather" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server/src/test/java/com/dashboard/server/ServerApplicationTests.java">
@@ -562,34 +659,6 @@
     <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/profile.twig" />
     <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/login.twig" />
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/login/Authentification.java" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/YoutubeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/OpenWeatherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/TwitchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/ServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-79">
@@ -599,16 +668,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -626,6 +685,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -633,48 +699,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/static/assets/css/argon-dashboard.css">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/Controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/Controllers/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="15587" lean-forward="true" selection-start-line="15587" selection-end-line="15587" />
+        <state relative-caret-position="210">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/assets/js/plugins/jquery/dist/core.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/assets/js/dashboard-api.js" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/OpenWeatherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/RoutesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="-716">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/profile.html">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/DeezerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="147">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/ServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3045">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        <state relative-caret-position="294">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/static/assets/css/argon-dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280581">
+          <caret line="13361" column="24" selection-start-line="13361" selection-start-column="24" selection-end-line="13361" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        <state relative-caret-position="796">
+          <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/register.html">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/routes/ServicesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+        <state relative-caret-position="506">
+          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-modals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/TwitchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/dashboard/server/services/YoutubeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="88" column="58" lean-forward="true" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/static/assets/js/dashboard-services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="43" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="439" column="109" selection-start-line="439" selection-start-column="109" selection-end-line="439" selection-end-column="109" />
         </state>
       </provider>
     </entry>

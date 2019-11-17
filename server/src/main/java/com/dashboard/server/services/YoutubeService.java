@@ -19,8 +19,8 @@ public class YoutubeService {
         return subscribers;
     }
 
-    public String LastVideo(String name) {
-        String url = "https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forUsername=" + name + "&key=" + key;
+    public String LastVideo(String userid) {
+        String url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=" + userid + "&maxResults=1&key=" + key;
 
         RestTemplate restTemplate = new RestTemplate();
         String lastvideo = restTemplate.getForObject(url, String.class);
