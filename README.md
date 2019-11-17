@@ -1,6 +1,6 @@
 <div align="center"><h1>Dashboard - Epitech 2019</h1>
 
-L'arcade est un projet est un projet web de 1 mois réalisé par 2 étudiants à [Epitech Nice](https://www.epitech.eu/fr/)
+Le Dashboard est un projet est un projet web de 1 mois réalisé par 2 étudiants à [Epitech Nice](https://www.epitech.eu/fr/)
 
 [Hugo Sohm](https://github.com/HugoSohm), [Ryan Chamayrac](https://github.com/RyanChamayrac)
 
@@ -12,7 +12,7 @@ L'arcade est un projet est un projet web de 1 mois réalisé par 2 étudiants à
 
 Le Dashboard fonctionne à l'aide de plusieurs langages et technologies
 
-- [Java](https://fr.wikipedia.org/wiki/Java_(technique)
+- [Java](https://fr.wikipedia.org/wiki/Java_\(technique\))
 - [Spring boot](https://spring.io/projects/spring-boot)
 - [HTML5](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language)
 - [CSS3](https://fr.wikipedia.org/wiki/Hypertext_Markup_Language)
