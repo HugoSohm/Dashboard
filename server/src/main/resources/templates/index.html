@@ -303,7 +303,7 @@
         </div>
 
         <!-- Modal Youtube -->
-        <div class="modal fade" id="YoutubeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        <div class="modal fade" id="YoutubeModal" tabindex="-1" role="dialog" aria-labelledby="YoutubeModal"
              aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -327,8 +327,7 @@
                                 <input name="widget-name-youtube" class="form-control" id="widget-name-youtube" placeholder="Nom de la chaîne">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
-                                <button type="submit" class="btn btn-primary">Ajouter le widget</button>
+                                <button onclick="hideYoutubeModal()" type="submit" class="btn btn-primary">Ajouter le widget</button>
                             </div>
                         </form>
                     </div>
@@ -337,7 +336,7 @@
         </div>
 
         <!-- Modal Twitch -->
-        <div class="modal fade" id="TwitchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        <div class="modal fade" id="TwitchModal" tabindex="-1" role="dialog" aria-labelledby="TwitchModal"
              aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -361,8 +360,7 @@
                                 <input class="form-control" id="widget-count-twitch" placeholder="Nombre">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
-                                <button type="submit" class="btn btn-primary">Ajouter le widget</button>
+                                <button onclick="hideTwitchModal()" type="submit" class="btn btn-primary">Ajouter le widget</button>
                             </div>
                         </form>
                     </div>
@@ -371,7 +369,7 @@
         </div>
 
         <!-- Modal Youtube -->
-        <div class="modal fade" id="WeatherModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        <div class="modal fade" id="WeatherModal" tabindex="-1" role="dialog" aria-labelledby="WeatherModal"
              aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -388,8 +386,7 @@
                                 <input class="form-control" id="widget-name-weather" placeholder="Ville">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
-                                <button type="submit" class="btn btn-primary">Ajouter le widget</button>
+                                <button onclick="hideWeatherModal()" type="submit" class="btn btn-primary">Ajouter le widget</button>
                             </div>
                         </form>
                     </div>
@@ -412,6 +409,7 @@
 <script src="./assets/js/plugins/chart.js/dist/Chart.min.js"></script>
 <script src="./assets/js/plugins/chart.js/dist/Chart.extension.js"></script>
 <script src="./assets/js/argon-dashboard.min.js?v=1.1.0"></script>
-<script src="./assets/js/dashboard-api.js"></script>
+<script src="./assets/js/dashboard-services.js"></script>
+<script src="./assets/js/dashboard-modals.js"></script>
 </body>
 </html>
