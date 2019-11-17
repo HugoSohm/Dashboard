@@ -30,32 +30,27 @@ public class ServicesController {
     TwitchService TwitchService = new TwitchService();
 
     @RequestMapping("/service/weather/temperature")
-    public String Temperature(ModelMap model) {
-        model.addAttribute("App", "Dashboard");
-        return OpenWeatherService.Temperature("LONDON");
+    public String Temperature(@RequestParam("value") String value) {
+        return OpenWeatherService.Temperature(value);
     }
 
     @RequestMapping("/service/youtube/subscribers")
-    public String Subscribers(ModelMap model) {
-        model.addAttribute("App", "Dashboard");
-        return YoutubeService.Subscribers("sardochelol");
+    public String Subscribers(@RequestParam("value") String value) {
+        return YoutubeService.Subscribers(value);
     }
 
     @RequestMapping("/service/youtube/lastvideo")
-    public String LastVideo(ModelMap model) {
-        model.addAttribute("App", "Dashboard");
-        return YoutubeService.LastVideo("sardochelol");
+    public String LastVideo(@RequestParam("value") String value) {
+        return YoutubeService.LastVideo(value);
     }
 
     @RequestMapping("/service/twitch/games")
-    public String Games(ModelMap model) {
-        model.addAttribute("App", "Dashboard");
-        return TwitchService.Games(10);
+    public String Games(@RequestParam("value") int value) {
+        return TwitchService.Games(value);
     }
 
     @RequestMapping("/service/twitch/streams")
-    public String Streams(ModelMap model) {
-        model.addAttribute("App", "Dashboard");
-        return TwitchService.Streams(10);
+    public String Streams(@RequestParam("value") int value) {
+        return TwitchService.Streams(value);
     }
 }

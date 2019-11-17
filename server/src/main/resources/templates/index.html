@@ -2,311 +2,416 @@
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Accueil - Dashboard</title>
-  <link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="./assets/js/plugins/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
-  <link href="./assets/css/argon-dashboard.css?v=1.1.0" rel="stylesheet" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Accueil - Dashboard</title>
+    <link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="./assets/js/plugins/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet"/>
+    <link href="./assets/css/argon-dashboard.css?v=1.1.0" rel="stylesheet"/>
 </head>
 
 <body class="">
-  <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
+<nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
     <div class="container-fluid">
-      <!-- Toggler -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Brand -->
-      <a class="navbar-brand pt-0" href="./index">
-        <img src="./assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
-      </a>
-      <!-- User -->
-      <ul class="nav align-items-center d-md-none">
-        <li class="nav-item dropdown">
-          <a class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="ni ni-bell-55"></i>
-          </a>
-          <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <div class="media align-items-center">
-              <span class="avatar avatar-sm rounded-circle">
-                <img alt="Image placeholder" src="./assets/img/theme/team-1-800x800.jpg">
-              </span>
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main"
+                aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Brand -->
+        <a class="navbar-brand pt-0" href="./index">
+            <img src="./assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+        </a>
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+            <!-- Collapse header -->
+            <div class="navbar-collapse-header d-md-none">
+                <div class="row">
+                    <div class="col-6 collapse-brand">
+                        <a href="./index">
+                            <img src="./assets/img/brand/blue.png">
+                        </a>
+                    </div>
+                    <div class="col-6 collapse-close">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                                data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false"
+                                aria-label="Toggle sidenav">
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
             </div>
-          </a>
-        </li>
-      </ul>
-      <!-- Collapse -->
-      <div class="collapse navbar-collapse" id="sidenav-collapse-main">
-        <!-- Collapse header -->
-        <div class="navbar-collapse-header d-md-none">
-          <div class="row">
-            <div class="col-6 collapse-brand">
-              <a href="./index">
-                <img src="./assets/img/brand/blue.png">
-              </a>
-            </div>
-            <div class="col-6 collapse-close">
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle sidenav">
-                <span></span>
-                <span></span>
-              </button>
-            </div>
-          </div>
+            <!-- Navigation -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class=" nav-link active" href="./index"><i class="fas fa-home text-primary"></i> Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./profile"><i class="fas fa-user text-yellow"></i>Mon profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./logout"><i class="fas fa-sign-out-alt text-red"></i>Déconnexion</a>
+                </li>
+            </ul>
         </div>
-        <!-- Navigation -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-          <a class=" nav-link active" href="./index"><i class="fas fa-home text-primary"></i> Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./profile"><i class="fas fa-user text-yellow"></i>Mon profil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./logout"><i class="fas fa-sign-out-alt text-red"></i>Déconnexion</a>
-          </li>
-        </ul>
-      </div>
     </div>
-  </nav>
-  <div class="main-content">
+</nav>
+<div class="main-content">
     <!-- Navbar -->
     <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
-      <div class="container-fluid">
-        <!-- Brand -->
-        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="./index">Dashboard</a>
-        <!-- User -->
-        <ul class="navbar-nav align-items-center d-none d-md-flex">
-          <li class="nav-item dropdown">
-            <a class="nav-link pr-0" href="profile">
-              <div class="media align-items-center">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="./index"></a>
+            <!-- User -->
+            <ul class="navbar-nav align-items-center d-none d-md-flex">
+                <li class="nav-item dropdown">
+                    <a class="nav-link pr-0" href="profile">
+                        <div class="media align-items-center">
                 <span class="avatar avatar-sm rounded-circle">
                   <img alt="Image placeholder" src="./assets/img/theme/team-4-800x800.jpg">
                 </span>
-                <div class="media-body ml-2 d-none d-lg-block">
-                  <span class="mb-0 text-sm  font-weight-bold">Mon profil</span>
-                </div>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
+                            <div class="media-body ml-2 d-none d-lg-block">
+                                <span class="mb-0 text-sm  font-weight-bold">Mon profil</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- End Navbar -->
     <!-- Header -->
     <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
-      <div class="container-fluid">
-        <div class="header-body">
-          <!-- Card stats -->
-          <div class="row">
-            <div class="col-xl-4 col-lg-6">
-              <div data-toggle="modal" data-target="#YoutubeModal" class="card card-stats mb-4 mb-xl-0">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <span class="h2 font-weight-bold mb-0">Youtube</span>
+        <div class="container-fluid">
+            <div class="header-body">
+                <!-- Card stats -->
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6">
+                        <div data-toggle="modal" data-target="#YoutubeModal" class="card card-stats mb-4 mb-xl-0">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <span class="h2 font-weight-bold mb-0">Youtube</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
+                                            <i class="fab fa-youtube"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
-                        <i class="fab fa-youtube"></i>
-                      </div>
+                    <div class="col-xl-4 col-lg-6">
+                        <div data-toggle="modal" data-target="#TwitchModal" class="card card-stats mb-4 mb-xl-0">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <span class="h2 font-weight-bold mb-0">Twitch</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
+                                            <i class="fab fa-twitch"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                    <div class="col-xl-4 col-lg-6">
+                        <div data-toggle="modal" data-target="#WeatherModal" class="card card-stats mb-4 mb-xl-0">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <span class="h2 font-weight-bold mb-0">Météo</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="icon icon-shape bg-yellow text-white rounded-circle shadow">
+                                            <i class="fas fa-cloud"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="col-xl-4 col-lg-6">
-              <div data-toggle="modal" data-target="#TwitchModal" class="card card-stats mb-4 mb-xl-0">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <span class="h2 font-weight-bold mb-0">Twitch</span>
-                    </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
-                        <i class="fab fa-twitch"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-6">
-              <div data-toggle="modal" data-target="#WeatherModal" class="card card-stats mb-4 mb-xl-0">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <span class="h2 font-weight-bold mb-0">Météo</span>
-                    </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-yellow text-white rounded-circle shadow">
-                        <i class="fas fa-cloud"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
     <div class="container-fluid mt--7">
-      <!-- Table -->
-      <div class="row">
-        <div class="col">
-          <div class="card shadow">
-            <div class="card-header border-0">
-              <h3 class="mb-0">Widgets actifs</h3>
-            </div>
-            <div class="table-responsive">
-              <table class="table align-items-center table-flush">
-                <thead class="thead-light">
-                <tr>
-                  <th scope="col">Service</th>
-                  <th scope="col">Widget</th>
-                  <th scope="col">Valeur</th>
-                  <th scope="col"></th>
-                  <th scope="col"></th>
-                  <th scope="col"></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <th scope="row">
-                    <div class="media align-items-center">
-                      <a href="#" class="avatar rounded-circle mr-3">
-                        <img alt="Image placeholder" src="assets/img/theme/bootstrap.jpg">
-                      </a>
-                      <div class="media-body">
-                        <span class="mb-0 text-sm">Youtube</span>
-                      </div>
+        <!-- Table -->
+        <div class="row">
+            <div class="col">
+                <div class="card shadow">
+                    <div class="card-header border-0">
+                        <h3 class="mb-0">Widgets actifs</h3>
                     </div>
-                  </th>
-                  <td>Nombre d'abonnés</td>
-                  <td><span class="badge badge-dot mr-4"><span id="apiSubscribers"></span> abonnés</span></td>
-                  <td></td>
-                  <td></td>
-                  <td class="text-right">
-                    <div class="dropdown">
-                      <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-ellipsis-v"></i>
-                      </a>
-                      <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                        <a class="dropdown-item" href="#">Modifier</a>
-                        <a class="dropdown-item" href="#">Supprimer</a>
-                      </div>
+                    <div class="table-responsive">
+                        <table class="table align-items-center table-flush">
+                            <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Service</th>
+                                <th scope="col">Statut</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <a href="#" class="avatar rounded-circle mr-3">
+                                            <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
+                                                <i class="fab fa-youtube"></i>
+                                            </div>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="mb-0 text-sm">Youtube</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <td><span class="badge badge-dot"><i class="bg-success"></i> Actif</span></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right">
+                                    <div class="col text-right">
+                                        <a href="#!" class="btn btn-sm btn-primary">Modifier</a>
+                                        <a href="#!" class="btn btn-sm btn-danger">Supprimer</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <a href="#" class="avatar rounded-circle mr-3">
+                                            <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
+                                                <i class="fab fa-twitch"></i>
+                                            </div>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="mb-0 text-sm">Twitch</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <td><span class="badge badge-dot"><i class="bg-success"></i> Actif</span></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right">
+                                    <div class="col text-right">
+                                        <a href="#!" class="btn btn-sm btn-primary">Modifier</a>
+                                        <a href="#!" class="btn btn-sm btn-danger">Supprimer</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <a href="#" class="avatar rounded-circle mr-3">
+                                            <div class="icon icon-shape bg-yellow text-white rounded-circle shadow">
+                                                <i class="fas fa-cloud"></i>
+                                            </div>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="mb-0 text-sm">Météo</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <td><span class="badge badge-dot"><i class="bg-success"></i> Actif</span></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right">
+                                    <div class="col text-right">
+                                        <a href="#!" class="btn btn-sm btn-primary">Modifier</a>
+                                        <a href="#!" class="btn btn-sm btn-danger">Supprimer</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
-                  </td>
-                </tr>
-                </tbody>
-              </table>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Modal Youtube -->
-    <div class="modal fade" id="YoutubeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="YoutubeModalTitle">Ajouter un widget youtube</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="widget-selector-youtube">Type du widget</label>
-                <select class="form-control" id="widget-selector-youtube">
-                  <option>Nombre d'abonnés</option>
-                  <option>Dernière vidéo</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="widget-name-youtube">Nom de la chaîne</label>
-                <input class="form-control" id="widget-name-youtube" placeholder="Nom de la chaîne">
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
-            <button type="button" class="btn btn-primary">Ajouter le widget</button>
-          </div>
+        <div class="row mt-5">
+            <div class="col-xl-12">
+                <div class="card shadow">
+                    <div class="card-header border-0">
+                        <div class="row align-items-center">
+                            <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                            <div class="col">
+                                <h3 class="mb-0">Les lives les plus regardés</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <!-- Projects table -->
+                        <table class="table align-items-center table-flush">
+                            <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Nom du streamer</th>
+                                <th scope="col">Nombre de spectateurs</th>
+                                <th scope="col">Titre du stream</th>
+                            </tr>
+                            </thead>
+                            <tbody id="streams"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <!-- Modal Twitch -->
-    <div class="modal fade" id="TwitchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="TwitchModalTitle">Ajouter un widget twitch</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="widget-name-twitch">Nom de la chaîne ou du jeu</label>
-                <input class="form-control" id="widget-name-twitch" placeholder="Nom de la chaîne/jeu">
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
-            <button type="button" class="btn btn-primary">Ajouter le widget</button>
-          </div>
+        <div class="row mt-5">
+            <div class="col-xl-12">
+                <div class="card shadow">
+                    <div class="card-header border-0">
+                        <div class="row align-items-center">
+                            <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                            <div class="col">
+                                <h3 class="mb-0">Les jeux les plus regardés</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <!-- Projects table -->
+                        <table class="table align-items-center table-flush">
+                            <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Nom du jeu</th>
+                            </tr>
+                            </thead>
+                            <tbody id="games"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <!-- Modal Youtube -->
-    <div class="modal fade" id="WeatherModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="WeatherModalTitle">Ajouter un widget météo</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="widget-name-weather">Nom de la ville</label>
-                <input class="form-control" id="widget-name-weather" placeholder="Ville">
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
-            <button type="button" class="btn btn-primary">Ajouter le widget</button>
-          </div>
+        <div class="row mt-5">
+            <div id="weather" class="col-xl-6"></div>
+            <div id="youtube" class="col-xl-6"></div>
         </div>
-      </div>
-    </div>
 
-  </div>
-  <script src="./assets/js/plugins/jquery/dist/jquery.min.js"></script>
-  <script src="./assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="./assets/js/plugins/chart.js/dist/Chart.min.js"></script>
-  <script src="./assets/js/plugins/chart.js/dist/Chart.extension.js"></script>
-  <script src="./assets/js/argon-dashboard.min.js?v=1.1.0"></script>
-  <script src="./assets/js/dashboard-api.js"></script>
+        <!-- Modal Youtube -->
+        <div class="modal fade" id="YoutubeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="YoutubeModalTitle">Ajouter un widget youtube</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="javascript:youtube()">
+                            <div class="form-group">
+                                <label for="widget-selector-youtube">Type du widget</label>
+                                <select class="form-control" id="widget-selector-youtube">
+                                    <option value="subscribers">Nombre d'abonnés</option>
+                                    <option value="lastvideo">Dernière vidéo</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="widget-name-youtube">Nom de la chaîne</label>
+                                <input name="widget-name-youtube" class="form-control" id="widget-name-youtube" placeholder="Nom de la chaîne">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+                                <button type="submit" class="btn btn-primary">Ajouter le widget</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Twitch -->
+        <div class="modal fade" id="TwitchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TwitchModalTitle">Ajouter un widget twitch</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="javascript:twitch()">
+                            <div class="form-group">
+                                <label for="widget-selector-twitch">Type du widget</label>
+                                <select class="form-control" id="widget-selector-twitch">
+                                    <option value="streams">Lives les plus regardés</option>
+                                    <option value="games">Jeux les plus regardés</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="widget-count-twitch">Nombre les plus regardés</label>
+                                <input class="form-control" id="widget-count-twitch" placeholder="Nombre">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+                                <button type="submit" class="btn btn-primary">Ajouter le widget</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Youtube -->
+        <div class="modal fade" id="WeatherModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+             aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="WeatherModalTitle">Ajouter un widget météo</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="javascript:weather()">
+                            <div class="form-group">
+                                <label for="widget-name-weather">Nom de la ville</label>
+                                <input class="form-control" id="widget-name-weather" placeholder="Ville">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+                                <button type="submit" class="btn btn-primary">Ajouter le widget</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="row align-items-center justify-content-xl-between">
+                <div class="col-xl-12">
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div>
+<script src="./assets/js/plugins/jquery/dist/jquery.min.js"></script>
+<script src="./assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/plugins/chart.js/dist/Chart.min.js"></script>
+<script src="./assets/js/plugins/chart.js/dist/Chart.extension.js"></script>
+<script src="./assets/js/argon-dashboard.min.js?v=1.1.0"></script>
+<script src="./assets/js/dashboard-api.js"></script>
 </body>
 </html>
