@@ -3,9 +3,9 @@ function hideYoutubeModal() {
 }
 
 function hideTwitchModal() {
-    $('#YoutubeModal').modal('hide');
+    $('#TwitchModal').modal('hide');
 }
 
 function hideWeatherModal() {
-    $('#YoutubeModal').modal('hide');
+    $('#WeatherModal').modal('hide');
 }

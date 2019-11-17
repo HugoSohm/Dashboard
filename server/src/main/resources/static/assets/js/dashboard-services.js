@@ -21,11 +21,15 @@ function youtube() {
                 "                        <table class=\"table align-items-center table-flush\">\n" +
                 "                            <thead class=\"thead-light\">\n" +
                 "                            <tr>\n" +
+                "                                <th scope=\"col\">Chaîne</th>\n" +
                 "                                <th scope=\"col\">Abonnés</th>\n" +
                 "                            </tr>\n" +
                 "                            </thead>\n" +
                 "                            <tbody>\n" +
                 "                            <tr>\n" +
+                "                                <th>\n" +
+                "                                    <span>" + value + "</span>\n" +
+                "                                </th>\n" +
                 "                                <th>\n" +
                 "                                    <span>" + subscribers + " abonnés" + "</span>\n" +
                 "                                </th>\n" +
@@ -101,11 +105,15 @@ function weather() {
             "                        <table class=\"table align-items-center table-flush\">\n" +
             "                            <thead class=\"thead-light\">\n" +
             "                            <tr>\n" +
+            "                                <th scope=\"col\">Ville</th>\n" +
             "                                <th scope=\"col\">Degrès</th>\n" +
             "                            </tr>\n" +
             "                            </thead>\n" +
             "                            <tbody>\n" +
             "                            <tr>\n" +
+            "                                <th>\n" +
+            "                                    <span>" + value + "</span>\n" +
+            "                                </th>\n" +
             "                                <th>\n" +
             "                                    <span>" + temperature + "°C" + "</span>\n" +
             "                                </th>\n" +
