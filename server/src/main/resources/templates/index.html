@@ -109,7 +109,7 @@
           <!-- Card stats -->
           <div class="row">
             <div class="col-xl-4 col-lg-6">
-              <div class="card card-stats mb-4 mb-xl-0">
+              <div data-toggle="modal" data-target="#YoutubeModal" class="card card-stats mb-4 mb-xl-0">
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
@@ -125,7 +125,7 @@
               </div>
             </div>
             <div class="col-xl-4 col-lg-6">
-              <div class="card card-stats mb-4 mb-xl-0">
+              <div data-toggle="modal" data-target="#TwitchModal" class="card card-stats mb-4 mb-xl-0">
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
@@ -141,7 +141,7 @@
               </div>
             </div>
             <div class="col-xl-4 col-lg-6">
-              <div class="card card-stats mb-4 mb-xl-0">
+              <div data-toggle="modal" data-target="#WeatherModal" class="card card-stats mb-4 mb-xl-0">
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
@@ -215,6 +215,92 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal Youtube -->
+    <div class="modal fade" id="YoutubeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="YoutubeModalTitle">Ajouter un widget youtube</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="widget-selector-youtube">Type du widget</label>
+                <select class="form-control" id="widget-selector-youtube">
+                  <option>Nombre d'abonnés</option>
+                  <option>Dernière vidéo</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="widget-name-youtube">Nom de la chaîne</label>
+                <input class="form-control" id="widget-name-youtube" placeholder="Nom de la chaîne">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+            <button type="button" class="btn btn-primary">Ajouter le widget</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Twitch -->
+    <div class="modal fade" id="TwitchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TwitchModalTitle">Ajouter un widget twitch</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="widget-name-twitch">Nom de la chaîne ou du jeu</label>
+                <input class="form-control" id="widget-name-twitch" placeholder="Nom de la chaîne/jeu">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+            <button type="button" class="btn btn-primary">Ajouter le widget</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Youtube -->
+    <div class="modal fade" id="WeatherModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="WeatherModalTitle">Ajouter un widget météo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="widget-name-weather">Nom de la ville</label>
+                <input class="form-control" id="widget-name-weather" placeholder="Ville">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+            <button type="button" class="btn btn-primary">Ajouter le widget</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
   <script src="./assets/js/plugins/jquery/dist/jquery.min.js"></script>
   <script src="./assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
