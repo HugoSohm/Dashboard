@@ -1,6 +1,8 @@
 <div align="center"><h1>Dashboard - Epitech 2019</h1>
 
-Le Dashboard est un projet est un projet web de 1 mois réalisé par 2 étudiants à [Epitech Nice](https://www.epitech.eu/fr/)
+[![Build Status](https://travis-ci.org/HugoSohm/Dashboard.svg?branch=master)](https://travis-ci.org/HugoSohm/Dashboard)
+
+Le Dashboard est un projet web de 1 mois réalisé par 2 étudiants à [Epitech Nice](https://www.epitech.eu/fr/)
 
 [Hugo Sohm](https://github.com/HugoSohm), [Ryan Chamayrac](https://github.com/RyanChamayrac)
 
