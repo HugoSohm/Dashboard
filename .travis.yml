@@ -6,4 +6,3 @@ before_install:
 
 script:
   - sudo docker-compose build
-  - sudo docker-compose up
